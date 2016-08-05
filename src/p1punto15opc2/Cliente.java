@@ -20,14 +20,14 @@ public class Cliente extends PERSONAL_DATE{
     }
     public void consignar(){
         System.out.println("Digite valor a consignar: ");
-        saldo = + lector.nextDouble();
+        saldo = saldo + lector.nextDouble();
         
     }
     public void Consultar_Saldo(){
         System.out.println("Su saldo es: "+saldo);
     }
-    /*public void Retirar(){
+    public void Retirar(){
         System.out.print("Digite valor a retirar: ");
         saldo = saldo-lector.nextDouble();
-    }*/
+    }
 }

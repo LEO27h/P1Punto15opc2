@@ -12,7 +12,7 @@ public class Ppal {
         client.Loading_Data();
         client.Show_Data();
         client.consignar();
-       // client.Retirar();
+        client.Retirar();
         client.Consultar_Saldo();
        /* do{
             System.out.println("0. Ingresar datos");
